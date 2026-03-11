@@ -1,0 +1,3 @@
+fullname = input("please gave me your full name")
+propername = fullname.title()
+print(propername)
