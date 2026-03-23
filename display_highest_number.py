@@ -1,0 +1,9 @@
+nums = []
+
+while True:
+    n = input("Enter number: ")
+    if not n.isdigit():
+        break
+    nums.append(int(n))
+
+print(max(nums))
